@@ -1,0 +1,29 @@
+syntax = "proto3";
+package offlineRender;
+
+
+message StartRenderReq {
+  string map_id		= 1;
+  string json_url	= 2;
+  int32 cmd_type	= 3;
+}
+
+message StartRenderRsp {
+  int32 result_code	= 1; //返回码
+}
+
+message FinishRenderReq {
+  string map_id		= 1;
+  string path_android	= 2;
+  string path_ios	= 3;
+  int32 result_code	= 4; //渲染是否成功返回码
+}
+
+message FinishRenderRsp {
+  int32 result_code	= 1; //返回码
+}
+
+service RenderService {
+  rpc StartRender(StartRenderReq) returns (StartRenderRsp) {}
+  rpc FinishRender(FinishRenderReq) returns (FinishRenderRsp) {}
+}

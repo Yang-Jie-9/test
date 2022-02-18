@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BestHTTP", "BestHTTP.csproj", "{2fcbeac0-6860-33b0-4604-145e1d8ad23b}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{75203c2a-ddc7-b1c7-fa35-084995650f07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2fcbeac0-6860-33b0-4604-145e1d8ad23b}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2fcbeac0-6860-33b0-4604-145e1d8ad23b}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2fcbeac0-6860-33b0-4604-145e1d8ad23b}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2fcbeac0-6860-33b0-4604-145e1d8ad23b}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75203c2a-ddc7-b1c7-fa35-084995650f07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75203c2a-ddc7-b1c7-fa35-084995650f07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75203c2a-ddc7-b1c7-fa35-084995650f07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75203c2a-ddc7-b1c7-fa35-084995650f07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
